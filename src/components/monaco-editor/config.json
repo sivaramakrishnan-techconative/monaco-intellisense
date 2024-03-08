@@ -1,0 +1,70 @@
+{
+  "displayName": "prefab",
+  "group": "",
+  "iconUrl": "/resources/images/imagelists/prefab-icon.png",
+  "resources": {
+    "styles": ["/pages/Main/Main.css"],
+    "scripts": []
+  },
+  "properties": {
+    "myprop1": {
+      "type": "string",
+      "displayName": "Myprop1",
+      "description": "tewte",
+      "bindable": "in-bound",
+      "widget": "string",
+      "show": true,
+      "showAt": "",
+      "disabled": false
+    },
+    "test1": {
+      "type": "string",
+      "displayName": "Test1",
+      "description": "gwesgv",
+      "bindable": "in-bound",
+      "widget": "slider",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "show": true,
+      "disabled": false
+    }
+  },
+  "events": {},
+  "methods": {
+    "addNumbers": {
+      "description": "add numbers",
+      "parameters": [
+        {
+          "name": "a",
+          "type": "number",
+          "description": "num"
+        },
+        {
+          "name": "b",
+          "type": "number",
+          "description": "num"
+        }
+      ],
+      "returnType": "number",
+      "example": ""
+    },
+    "subNumbers": {
+      "description": "Test 1",
+      "parameters": [
+        {
+          "name": "a",
+          "type": "number",
+          "description": "number"
+        },
+        {
+          "name": "b",
+          "type": "number",
+          "description": "number"
+        }
+      ],
+      "returnType": "void",
+      "example": ""
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "displayName": "customComponent",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "The unique identifier for the component."
+    },
+    "name": {
+      "type": "string",
+      "description": "The name of the component."
+    },
+    "settings": {
+      "type": "object",
+      "description": "Settings for the component.",
+      "properties": {
+        "backgroundColor": {
+          "type": "string",
+          "description": "The background color of the component."
+        },
+        "isVisible": {
+          "type": "boolean",
+          "description": "Determines if the component is visible."
+        }
+      },
+      "methods": {}
+    }
+  },
+  "methods": {
+    "addNumbers": {
+      "description": "Initializes the component.",
+      "parameters": [
+        {
+          "name": "a",
+          "type": "number",
+          "description": "num"
+        },
+        {
+          "name": "b",
+          "type": "number",
+          "description": "num"
+        }
+      ],
+      "returnType": "void"
+    },
+    "update": {
+      "description": "Updates the component settings.",
+      "parameters": [
+        {
+          "name": "settings",
+          "type": "boolean",
+          "description": "The new settings for the component."
+        }
+      ],
+      "returnType": "number"
+    }
+  }
+}
